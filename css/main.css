@@ -1,0 +1,11 @@
+
+
+nav {
+	background-color: tomato;
+	height: 100px;
+	width: 100%;
+}
+
+.new-height div {
+	height: 90px;
+}

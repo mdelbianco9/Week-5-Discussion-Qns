@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DiscussionQns Week5</title>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet">
+	
+	<!-- fontawesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+	<!-- 2. Link Bootstraps CDN below this line. Then do the same in your template folder -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+	<nav>
+	<!-- 1. Create a link that takes the user to the Services Page -->
+	<a href="services.html">Services</a>
+	</nav>
+
+	<!-- Add the Continer class to this div -->
+	<main class="container"> 
+		<a href="https://www.cloudflare.com/learning/cdn/what-is-a-cdn/" target="_blank">
+			<img class="img-fluid border" src="https://1adn3cp4l2-flywheel.netdna-ssl.com/wp-content/uploads/2017/09/cloudflare-security.png">
+		</a>
+	</main>
+
+	<!-- Questions 3-7 -->
+	<section class="container-fluid">
+
+		<div class="row">
+
+			<!-- Question 3 -->
+			<div class="col-12 bg-light text-center mt-5 p-3">
+				<h1>What is Bootstrap?</h1>
+				<p>Bootstrap is a giant collection of handy, reusable bits of code written in HTML, CSS, and JavaScript. It’s also a front-end development framework that enables developers & designers to quickly build fully responsive websites.</p>
+				<span>Helpful link:
+					<a href="https://www.taniarascia.com/what-is-bootstrap-and-how-do-i-use-it/" target="_blank">Learn More</a>
+				 </span>
+			</div>
+
+		</div>
+
+		<div class="row mt-5">
+
+			<!-- Question 4 -->
+			<div class="col-md-3 bg-dark text-white pt-2">
+				<h3>Why do we like Bootstrap?</h3>
+				<p>Bootstrap saves you from writing lots of CSS code, giving you more time to spend on designing webpages. It makes our lives as developers easier.</p>
+			</div>
+
+			<!-- Question 5 -->
+			<div class="col-md-3 bg-success text-white pt-2">
+				<h5>What version of Bootstrap are we using? How can we be sure we are using the correct version?</h5>
+				<p>Version 4. You can look in your CDN of Bootstrap and it will show you the version.</p>
+				<p>Or check here: <a href="https://getbootstrap.com/" target="_blank">getbootstrap</a></p>
+			</div>
+
+			<!-- Question 6 -->
+			<div class="col-md-3 bg-warning text-white p-2">
+				<h4>Where can we find the Bootstrap documentation or component code?</h4>
+				<button class="btn btn-lg btn-danger"><a href="https://getbootstrap.com/" target="_blank" class="text-white">getbootstrap</a></button>
+			</div>
+
+			<!-- Question 7 -->
+			<div class="col-md-3 bg-danger text-white p-2">
+				<h4>What are the two ways to add Bootstrap to your project?</h4>
+				<p>Using the CDN or downloading it as a file in your project, just like animate.css.</p>
+			</div>
+
+		</div>
+	</section>
+
+	<!-- QUESTION 8 -->
+	<div class="container">
+		<div class="row">
+			<div class="col-8 bg-light">
+			<h1>
+			 When using Bootstraps grid system (columns), what containing element class or classes do we need?
+			</h1>
+			<p>A div with the class of "container". And a div with the class of "row". </p>
+			<!-- Add the appropriate classes to the <div> elements above the <h1> -->
+			<!-- Add a class to the <h1> so it takes up 8 columns -->
+			</div>
+		</div>
+	</div>
+
+	<!-- QUESTION 9 -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-8 bg-light">
+			<h1>Whats the difference between Bootstraps container and container-fluid?</h1>
+			<p>“container” has horizontal margin and doesn’t take up the full width of the viewport. “container-fluid” takes up the full width of the viewport.</p>
+			<p>“container” uses break points to resize and “container-fluid” constantly readjusts as the viewport is resized.</p>
+			<div>
+		</div>
+	</div>
+
+	<!-- QUESTION 10 -->
+
+	<h1>How many columns are in each row in bootstraps grid system?</h1>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-1 border">H</div>
+			<div class="col-1 border">E</div>
+			<div class="col-1 border">L</div>
+			<div class="col-1 border">L</div>
+			<div class="col-1 border">O</div>
+			<div class="col-1 border">_</div>
+			<div class="col-1 border">W</div>
+			<div class="col-1 border">O</div>
+			<div class="col-1 border">R</div>
+			<div class="col-1 border">L</div>
+			<div class="col-1 border">D</div>
+			<div class="col-1 border">!</div>
+		</div>
+	</div>
+
+	<div class="container-fluid">
+		<div class="row new-height">
+			<div class="col-2 		border bg-light">H</div>
+			<div class="col-4 		border bg-danger">E</div>
+			<div class="col-6 		border bg-warning">L</div>
+			<div class="col-7 		border bg-success">L</div>
+			<div class="col-5 		border bg-primary">O</div>
+			<div class="col-11		border bg-success">_</div>
+			<div class="col-1 		border bg-light">W</div>
+			<div class="col-3 		border bg-warning">O</div>
+			<div class="col-4 		border bg-danger">R</div>
+			<div class="col-2 		border bg-dark">L</div>
+			<div class="col-3 		border bg-success">D</div>
+			<div class="col-12 		border bg-primary">!</div>
+		</div>
+	</div>
+
+	<!-- QUESTION 11 -->
+	<div class="container mt-5">
+		<div class="row">
+			<h1 class="col-6 bg-dark text-white">What does col-6 mean?</h1>
+			<p class="col-6 bg-light text-dark"></p>
+		</div>
+	</div>
+	
+	<!-- QUESTION 12 -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-12 col-md-6 bg-warning">
+				<h1>What does “col-12 col-md-6” mean? What does the “md” mean and why would we use it?</h1>
+				<p></p>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- QUESTION 13 -->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="text-center bg-dark text-white w-100">
+				<h4>As a Bootstrap class, what do you think “text-center” does? <br>What about “text-white”?<br> “bg-dark”? <br> “w-100”?</h4>
+				<p></p>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- QUESTION 14 -->
+	<div class="container">
+		<div class="row">
+			<div class="col-5">
+				<h2>What does “img-fluid” do?</h2>
+				<p></p>
+				<img class="img-fluid" src="https://images.pexels.com/photos/935785/pexels-photo-935785.jpeg?auto=compress&cs=tinysrgb&h=350">
+			</div>
+		</div>
+	</div>
+
+
+	<!-- QUESTION 15 -->
+	<div class="container">
+		<div class="row">
+			<div class="col-8 bg-light mt-5 mx-auto">
+				<h3>What does the class “mx-auto” do? <br> What are some variations of this class?</h3>
+				<p></p>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- QUESTION 16 -->
+	<!-- Add a class of "offset-4" to the <div> with a class of col-5.
+		Then add a class of "offset-1" to the <p> element
+	 -->
+
+	<div class="container-fluid"> 
+		<div class="row">
+			<div class="col-5 offset-4 bg-danger">
+				<h1> What does “offset-4” do?</h1>
+			</div>
+			<p class="bg-warning offset-1">Enter your answer:</p>
+		</div>
+	</div>
+
+
+
+	<!-- QUESTION 17 -->
+	<h2> Where can you go to learn more about these and other Bootstrap classes?</h2>
+	<p></p>
+
+	<!-- QUESTION 18 -->
+	<h2>When we link our bootstrap to our HTMl, does this link come before or after our main.css link?</h2>
+	<p></p>
+
+	<!-- QUESTION 19 -->
+	<h2>Where does JQuery go on your HTMl age if you are using Bootstraps Javascript?</h2>
+	<p></p>
+
+
+	<br><br><br>
+	<h1><a href="answers.html">Answers Sheet</a></h1>
+
+
+<!-- 2. Add the Bootstrap JS CDN here -->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<!-- End Bootstrap 4 JS -->
+
+<script src="js/main.js"></script>
+
+</body>
+
+
+</html>
